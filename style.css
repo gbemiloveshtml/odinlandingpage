@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    background-color: #1f2937;
+    }
+
+.logo{
+    align-self: center;
+    padding-left: 150px;
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bold;
+    }
+
+.navi{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    column-gap: 20px;
+    margin-right: 70px;
+}
+
+img{
+    height: 20px;
+    width: auto;
+}
